@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Aspirantes</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/aspirantes.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Lobster|Pacifico" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet"> -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- INICIA SECCION DE NAVBAR -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="index.html">
+	      		<img class="logo-navbar" src="img/logo.png" alt="">
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li><a href="index.html">inicio</a></li>
+	      	<li><a href="aspirantes.html">aspirantes</a></li>
+	      	<li><a href="alumnos.html">alumnos</a></li>
+	      	<li><a href="maestros.html">profesores</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+<!-- TERMINA SECCION DE NAVBAR -->
+<!-- INICIA SECCION DE TITULO -->
+	<section class="content_aspirantes">
+		<p class="title_aspirantes" id="nada">Aspirantes</p>
+	</section>
+<!-- TERMINA SECCION DE TITULO -->
+<!-- INICIA SECCION DE CONTENIDO PRINCIPAL -->
+	<section class="main_content">
+		<article class="btns">
+			<button id="first">examen de admision</button>
+			<button id="second">requisitos</button>
+			<button id="third">eleccion de carrera</button>
+		</article>
+		<article class="info">
+		<section class="img_aspirantes"></section>
+			<p class="muestra-texto1" style="display: none;"><span class="title_spanAs">examen de admision</span>If you click on the "Hide" button, I will disappear.</p>
+			<p class="muestra-texto2" style="display: none;"><span class="title_spanAs">Requisitos</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus quam dolore! Autem officia officiis eum, nesciunt animi ut illo tenetur perspiciatis natus provident tempora similique itaque iste laborum, molestiae rem porro nemo, rerum consectetur excepturi facilis! Deleniti ratione tenetur explicabo vero neque! Quas molestias dicta illum qui consectetur, necessitatibus! Sed natus quibusdam deserunt, nobis ea obcaecati consectetur ducimus? Modi similique vero molestias fuga nostrum fugiat! Similique eligendi molestias tempore, voluptatum architecto cupiditate! Similique, harum, a molestiae distinctio illo sunt eaque debitis nesciunt doloremque dolor voluptates asperiores, odit at quae eligendi officia ea. Laboriosam nisi aliquam enim ratione deleniti. Sed, alias. Culpa doloremque inventore quidem, repellendus ipsum doloribus pariatur ad possimus ea sit architecto unde, natus, sint atque perspiciatis aut vero perferendis distinctio quibusdam. Quas, obcaecati. Praesentium tempore, vel maiores illum laborum iure eos excepturi similique nulla eaque necessitatibus aperiam doloremque quia. Cupiditate ex harum, adipisci reiciendis consequuntur repellat voluptatem consequatur culpa nulla, accusamus. Maiores nemo, cumque unde explicabo, iste odio dolore ex quaerat qui dicta doloremque eligendi minus excepturi laborum, laboriosam animi consectetur! Fugit esse dolores aspernatur culpa vero ad porro corporis fugiat blanditiis quod molestias amet est, molestiae cupiditate. Iste, illo dolorum, deserunt neque odio velit facilis autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure expedita sed cupiditate numquam, eveniet autem, facere? Iure excepturi at, doloremque laudantium minima neque possimus ab, expedita suscipit vitae aliquam repudiandae labore obcaecati quas atque. Quod sed, enim aliquam architecto delectus?</p>
+			<p class="muestra-texto3" style="display: none;"><span class="title_spanAs">Eleccion de carrera</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iste perspiciatis, numquam illum cumque similique voluptatibus veritatis ratione nostrum eligendi, iusto accusantium modi voluptatum velit libero vel! Amet, perferendis! Cumque quis ut, minima dolorum veniam dicta mollitia quos iusto a similique totam laboriosam laborum libero dolor, pariatur nobis amet perspiciatis obcaecati temporibus, consequatur voluptatibus neque illo eius? Laboriosam, consectetur rerum?</p>
+		</article>
+	</section>
+<!-- TERMINA SECCION DE CONTENIDO PRINCIPAL -->
+<!-- INICIA SECCION DE FOOTER -->
+	<footer>
+		<div class="number">número de contacto: 54543435</div>
+		<div class="social_net"></div>
+		<div class="by">powered by: Club TICS UTR</div>
+	</footer>
+<!-- TERMINA SECCION DE FOOTER -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+	<script>
+
+$(document).ready(function(){
+    $("#first").click(function(){
+        $(".muestra-texto1").toggle(first);
+        $(".img_aspirantes").toggle();
+        $(".img_aspirantes").remove();
+    });
+});
+
+$(document).ready(function(){
+    $("#second").click(function(){
+        $(".muestra-texto2").toggle(second);
+    	$(".img_aspirantes").toggle();
+        $(".img_aspirantes").remove();
+    });
+});
+
+$(document).ready(function(){
+    $("#third").click(function(){
+        $(".muestra-texto3").toggle(third);
+    	$(".img_aspirantes").toggle();
+        $(".img_aspirantes").remove();
+    });
+});
+
+</script>
+</body>
+</html>

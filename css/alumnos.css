@@ -1,0 +1,93 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*	INICIA ESTILOS PARA TITULO 		*/
+.content_alumnos {
+	background:rgba(199,55,55,.95);
+	width:100%;
+	height:350px;
+}
+.title_alumnos {
+	text-align:center;
+	padding:150px;
+	font-size:4.5em;
+	color:#FFF;
+	text-transform:uppercase;
+	font-family:Acme;
+	font-weight:bold;
+}
+/*	TERMINAN ESTILOS PARA TITULO 	*/
+/*	INICIAN ESTILOS PARA SECCION PRINCIPAL 	*/
+.main-content-alumnos {
+	width:100%;
+	display:block;
+	margin-bottom:5%;
+}
+.title_btnsAl {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Acme;
+	color: rgba(199,55,55,1);
+	margin:0% -8%;
+}
+.btns-alumnos {
+	display:inline-block;
+	width:35%;
+	padding:8% 4%;
+}
+.actividades-alumnos {
+	margin:0 6%;
+	text-transform:uppercase;
+}
+.actividades-alumnos button {
+	display: inline-block;
+	margin: 0% 5%;
+	/*padding: 13px 27px;*/
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background: rgba(199,55,55,0.9);
+	text-transform: uppercase;
+}
+.btns-alumnos button {
+	display:block;
+	margin:4% 0;
+	padding:10px 20px;
+}
+.date_serv button {
+	display:block;
+	margin: 3% 1% 4% 0;
+	/*padding: 13px 27px;*/
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background: rgba(199,55,55,0.9);
+	text-transform: uppercase;
+}
+.info-alumnos {
+	width:60%;
+	height:450px;
+	display:inline-block;
+	margin-top:5%;
+	vertical-align:top;
+	overflow:auto;
+}
+.img_alumnos {
+	background-image:url("../img/alumnos.jpg");
+	background-size:cover;
+	width:100%;
+	height:450px;
+}
+
+.title_spanAlu {
+	display:block;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:rgba(199,55,55,.95);
+	font-family: Acme, sans-serif;
+	font-weight:bold;
+}
+/*	TERMINAN ESTILOS PARA SECCION PRINCIPAL */

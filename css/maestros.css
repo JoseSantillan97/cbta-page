@@ -1,0 +1,72 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.content_maestros {
+	background:rgba(199,55,55,.95);
+	width:100%;
+	height:350px;
+}
+.title_maestros {
+	text-align:center;
+	padding:150px;
+	font-size:4.5em;
+	color:#FFF;
+	text-transform:uppercase;
+	font-family:Acme;
+	font-weight:bold;
+}
+/*	TERMINAN ESTILOS PARA TITULO 	*/
+/*	INICIAN ESTILOS PARA SECCION PRINCIPAL 	*/
+.main_content_maestros {
+	width:100%;
+	display:block;
+	margin-bottom:5%;
+}
+.title_btns1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Acme;
+	color: rgba(199,55,55,1);
+}
+.btns_maestros {
+	display:inline-block;
+	width:35%;
+	padding:8% 4%;
+}
+.btns_maestros button {
+    display: block;
+    margin: 4% 9%;
+    padding: 13px 27px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgba(199,55,55,0.9);
+    text-transform: uppercase;
+}
+.info_maestros {
+	width:60%;
+	height:450px;
+	display:inline-block;
+	/*border:1px solid black;*/
+	margin-top:5%;
+	vertical-align:top;
+	overflow:auto;
+}
+.img_maestros {
+	background-image:url("../img/profesores.jpg");
+	background-size:cover;
+	width:100%;
+	height:450px;
+}
+.title_spanMa {
+	display:block;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:rgba(199,55,55,.95);
+	font-family: Acme, sans-serif;
+	font-weight:bold;
+}
+/*	TERMINAN ESTILOS PARA SECCION PRINCIPAL */
